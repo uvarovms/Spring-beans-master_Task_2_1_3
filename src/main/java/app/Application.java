@@ -14,7 +14,6 @@ public class Application {
             AnimalsCage bean =
                     applicationContext.getBean(AnimalsCage.class);
             bean.whatAnimalSay();
-            System.out.println("Время при выполнении метода whatAnimalSay(): " + bean.getTime());
         }
     }
 
